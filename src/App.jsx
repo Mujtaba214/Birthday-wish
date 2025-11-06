@@ -9,7 +9,7 @@ const App = () => {
   const [musicPlaying, setMusicPlaying] = useState(false);
   const [audio] = useState(new Audio("/music/happy-birthday.mp3"));
   const [displayText, setDisplayText] = useState("");
-  const fullText = "🎉 Happy Birthday Sarah!";
+  const fullText = "🎉 Happy Birthday Abc!";
   const typingRef = useRef(0);
 
   const particlesInit = async (main) => {
